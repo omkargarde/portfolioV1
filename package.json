@@ -5,9 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build && npx tailwindcss -i src/input.css -o ./dist/output.css",
+    "build": "tsc && vite build && npx tailwindcss -i src/input.css -o ./src/output.css",
     "preview": "vite preview",
-    "tw": "npx tailwindcss -i src/input.css -o ./dist/output.css --watch"
+    "tw": "npx tailwindcss -i src/input.css -o ./src/output.css --watch"
   },
   "devDependencies": {
     "prettier": "^3.0.3",
