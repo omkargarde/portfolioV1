@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "tailwind": "npx tailwindcss -i src/input.css -o ./dist/output.css --watch"
+    "tw": "npx tailwindcss -i src/input.css -o ./dist/output.css --watch"
   },
   "devDependencies": {
     "prettier": "^3.0.3",
