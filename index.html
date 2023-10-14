@@ -3,22 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/src/style.css" />
+    <!-- <link rel="stylesheet" href="/src/style.css" /> -->
     <link href="/dist/output.css" rel="stylesheet" />
     <title>Vite + TS</title>
   </head>
   <body class="bg-stone-900 text-stone-300">
-    <div class="card">
-      <h1>
-        <a
-          href=""
-          class="typewrite"
-          data-period="2000"
-          data-type='[ "Hi, I am Gourav Goyal.", "I Love to Design.", "I Love to Code." ]'
-        >
-          <span class="wrap"></span>
-        </a>
+    <div
+      class="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center"
+    >
+      <h1 class="mx-auto max-w-3xl text-center text-2xl">
+        <span
+          class="txt-type border-r-2 border-stone-300"
+          data-wait="1000"
+          data-words='["Hi, I am Omkar Garde","JavaScript developer", "Frontend developer"]'
+        ></span>
+        <span class="invisible">|</span>
       </h1>
+      <br />
+      <!-- <h2>Welcome to my Portfolio</h2> -->
       <!-- <h1>Omkar Garde</h1>
       <span class="sr-only">JavaScript developer</span>
       <span class="sr-only">Frontend developer</span>
@@ -85,6 +87,6 @@
         <li>M.V.Herwadkar School</li>
       </ul>
     </div>
-    <script type="module" src="/src/main.ts"></script>
+    <script type="module" src="/src/typeWriter.ts"></script>
   </body>
 </html>
