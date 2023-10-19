@@ -2,17 +2,15 @@
 
 ---
 
-<div class="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:items-center">
-  <h1 class="mx-auto max-w-3xl text-center text-2xl">
-    <span
-      class="txt-type border-r-2 border-stone-300"
-      data-wait="1000"
-      data-words='["Hi, I am Omkar Garde","JavaScript Developer", "Frontend Developer"]'
-    ></span>
-    <span class="invisible"></span>
-  </h1>
-  <br />
-</div>
+<h1 class="">
+  <span
+    class="txt-type"
+    data-wait="1000"
+    data-words='["Hi, I am Omkar Garde","JavaScript Developer", "Frontend Developer"]'
+  ></span>
+  <span class="invisible">|</span>
+</h1>
+
 <script>
   // learnt from https://www.youtube.com/watch?v=POX3dT-pB4E&t=21s
   //init on Dom Load
@@ -82,3 +80,12 @@
     }
   }
 </script>
+<style>
+  h1 {
+    margin: auto;
+    font-size: 72px;
+    background: -webkit-linear-gradient(#00f5f5, #9202f1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+</style>
