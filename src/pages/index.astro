@@ -1,14 +1,19 @@
 ---
+import Contact from "../components/Contact.astro";
 import Education from "../components/Education.astro";
 import Greeting from "../components/Greeting.astro";
+import Header from "../components/Header.astro";
 import Projects from "../components/Projects.astro";
 import Skills from "../components/Skills.astro";
 ---
 
-<main class="dark:bg-stone-900 dark:text-stone-200">
-  <Greeting />
-  <Skills />
-  <Projects />
-  <Education />
-  <div>test</div>
-</main>
+<div class="flex h-screen flex-col overflow-hidden bg-stone-900 text-stone-200">
+  <Header />
+  <main class="flex-1 overflow-y-scroll">
+    <Greeting />
+    <Skills />
+    <Projects />
+    <Education />
+    <Contact />
+  </main>
+</div>
