@@ -1,8 +1,10 @@
 ---
 import AngularIcon from "./icons/AngularIcon.astro";
+import GithubIcon from "./icons/GithubIcon.astro";
 import JavaScriptIcon from "./icons/JavaScriptIcon.astro";
 import ReactIcon from "./icons/ReactIcon.astro";
 import RedirectIcon from "./icons/RedirectIcon.astro";
+import TypeScriptIcon from "./icons/TypeScriptIcon.astro";
 ---
 
 <div id="projects" class="pb-36 pt-5">
@@ -12,12 +14,12 @@ import RedirectIcon from "./icons/RedirectIcon.astro";
       <ul class="p-3">
         <li>
           <div class="flex">
-            <span class="pr-1">
-              <JavaScriptIcon />
-            </span>
-            <span class="pr-1">
+            <a href="https://www.typescriptlang.org/" class="pr-3">
+              <TypeScriptIcon />
+            </a>
+            <a href="https://angular.io/" class="pr-3">
               <AngularIcon />
-            </span>
+            </a>
             <h3 class="pointer-events-none align-middle text-lg text-white">
               AngularAdminUI
             </h3>
@@ -29,21 +31,25 @@ import RedirectIcon from "./icons/RedirectIcon.astro";
               Angular framework to create a seamless user experience, resulting
               in improved efficiency and ease of use for administrators.
             </p>
-            <a href="https://angular-admin-ui.vercel.app/">
-              <p class="pl-3 pt-1">
-                <RedirectIcon />
-              </p>
+            <a href="https://angular-admin-ui.vercel.app/" class="pl-3 pt-1">
+              <RedirectIcon />
+            </a>
+            <a
+              href="https://github.com/omkargarde/angularAdminUI"
+              class="pl-3 pt-1"
+            >
+              <GithubIcon />
             </a>
           </div>
         </li>
-        <li class="pt-3">
+        <li class="pt-5">
           <div class="flex">
-            <span class="pr-1">
+            <a href="https://developer.mozilla.org/en-US/docs/Web/javascript">
               <JavaScriptIcon />
-            </span>
-            <span class="pr-1">
+            </a>
+            <a href="https://react.dev/" class="pr-3">
               <ReactIcon />
-            </span>
+            </a>
             <h3 class="pointer-events-none align-middle text-lg text-white">
               Events management using NextJS
             </h3>
@@ -57,10 +63,14 @@ import RedirectIcon from "./icons/RedirectIcon.astro";
               responsive design principles and optimizing page load times for
               seamless navigation and faster performance.
             </p>
-            <a href="https://next-js-event-chi.vercel.app/">
-              <p class="pl-3 pt-1">
-                <RedirectIcon />
-              </p>
+            <a href="https://next-js-event-chi.vercel.app/" class="pl-3 pt-1">
+              <RedirectIcon />
+            </a>
+            <a
+              href="https://github.com/omkargarde/nextJSEvent"
+              class="pl-3 pt-1"
+            >
+              <GithubIcon />
             </a>
           </div>
         </li>
