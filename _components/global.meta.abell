@@ -1,0 +1,4 @@
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ props.title || "omkar garde portfolio" }}</title>
+<link rel="stylesheet" href="./client-assets/global.css" />

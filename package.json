@@ -1,22 +1,17 @@
 {
-  "name": "stellar-shepherd",
-  "type": "module",
+  "name": "my-abell-site",
   "version": "0.0.1",
+  "description": "Default starter generated using create-abell",
+  "type": "module",
   "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
+    "dev": "abell dev",
+    "generate": "abell generate"
   },
-  "dependencies": {
-    "@astrojs/tailwind": "^5.0.2",
-    "astro": "^3.3.1",
-    "tailwindcss": "^3.0.24"
-  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
   "devDependencies": {
-    "prettier": "^3.0.3",
-    "prettier-plugin-astro": "^0.12.0",
-    "prettier-plugin-tailwindcss": "^0.5.6"
+    "abell": "^1.0.0-beta.4",
+    "vite-plugin-md-to-html": "^0.0.18"
   }
 }
