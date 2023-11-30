@@ -1,3 +1,4 @@
 {
-  "cSpell.words": ["Shippori"]
+  "cSpell.words": ["Shippori"],
+  "livePreview.defaultPreviewPath": "/index.html"
 }

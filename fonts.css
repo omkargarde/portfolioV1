@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css?family=Shippori Mincho B1:700|Shippori Mincho B1:400");
+@import url("https://fonts.googleapis.com/css?family=Poppins:700|Poppins:400");
 
 body {
-  font-family: Shippori Mincho B1, sans-serif, system-ui;
+  font-family: "Poppins";
   font-weight: 400;
 }
 
@@ -10,7 +10,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: Shippori Mincho B1, sans-serif, system-ui;
+  font-family: "Poppins";
   font-weight: 700;
 }
 
@@ -19,41 +19,26 @@ html {
 } /* 16px */
 
 h1 {
-  font-size: 1.382rem; /* 22.08px */
+  font-size: 3.053rem; /* 48.8px */
 }
 
 h2 {
-  font-size: 1.295rem; /* 20.8px */
+  font-size: 2.442rem; /* 39.04px */
 }
 
 h3 {
-  font-size: 1.214rem; /* 19.36px */
+  font-size: 1.954rem; /* 31.2px */
 }
 
 h4 {
-  font-size: 1.138rem; /* 18.24px */
+  font-size: 1.563rem; /* 24.96px */
 }
 
 h5 {
-  font-size: 1.067rem; /* 17.12px */
+  font-size: 1.25rem; /* 20px */
 }
 
 small {
-  font-size: 0.937rem; /* 15.04px */
+  font-size: 0.8rem; /* 12.8px */
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-figure {
-  margin: 10px;
-}
-p,
-li,
-a {
-  font-size: 1rem; /* 16px */
-  line-height: 1.8;
-}
+

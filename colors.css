@@ -1,26 +1,18 @@
 @media (prefers-color-scheme: light) {
   :root {
-    --text: lch(13.07% 16.7 115.84);
-    --background: lch(96.87% 8.79 118.89);
-    --primary: lch(50.96% 61.87 302.71);
-    --secondary: lch(96.87% 8.79 118.89);
-    --accent: lch(40.7% 77.13 304.49);
-    --link: lch(32.36% 77.33 305.2);
+    --text: #0c0c0d;
+    --background: #e5e4e7;
+    --primary: #676a62;
+    --secondary: #efeff0;
+    --accent: #8a8e85;
   }
 }
 @media (prefers-color-scheme: dark) {
   :root {
-    --text: lch(95.55% 13.4 116.96);
-    --background: lch(7.38% 9.53 121.97);
-    --primary: lch(27.09% 67.13 305.07);
-    --secondary: lch(7.38% 9.53 121.97);
-    --accent: lch(33.1% 78.83 305.29);
-    --link: lch(87.24% 15.35 299.11);
-  }
-}
-a {
-  color: var(--link);
-  &:hover {
-    color: var(--text);
+    --text: #f2f2f3;
+    --background: #19181b;
+    --primary: #9a9d95;
+    --secondary: #0f0f10;
+    --accent: #767a71;
   }
 }
