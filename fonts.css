@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css?family=Shippori Mincho B1:700|Shippori Mincho B1:400");
+
+body {
+  font-family: Shippori Mincho B1, sans-serif, system-ui;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: Shippori Mincho B1, sans-serif, system-ui;
+  font-weight: 700;
+}
+
+html {
+  font-size: 100%;
+} /* 16px */
+
+h1 {
+  font-size: 1.382rem; /* 22.08px */
+}
+
+h2 {
+  font-size: 1.295rem; /* 20.8px */
+}
+
+h3 {
+  font-size: 1.214rem; /* 19.36px */
+}
+
+h4 {
+  font-size: 1.138rem; /* 18.24px */
+}
+
+h5 {
+  font-size: 1.067rem; /* 17.12px */
+}
+
+small {
+  font-size: 0.937rem; /* 15.04px */
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure {
+  margin: 10px;
+}
+p,
+li,
+a {
+  font-size: 1rem; /* 16px */
+  line-height: 1.8;
+}
