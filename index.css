@@ -34,7 +34,7 @@ body {
 }
 
 .center {
-  margin: 2rem auto;
+  text-align: center;
   > h2 {
     text-align: center;
     border: none;
