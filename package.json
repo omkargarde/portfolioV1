@@ -8,6 +8,7 @@
   },
   "private": true,
   "dependencies": {
+    "@vercel/analytics": "^1.1.2",
     "@vercel/edge": "^0.1.2"
   },
   "keywords": [],

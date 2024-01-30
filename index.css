@@ -1,47 +1,58 @@
 @import "./colors.css";
 @import "./fonts.css";
 
+:root {
+  --text: #f2f2f3;
+  /* --background: linear-gradient(115deg, #212121, #4d4d4d); */
+  /* --background: linear-gradient(115deg, #595758, #757475, #ffffff); */
+  /* --background: linear-gradient(115deg, #292625, #82968c); */
+  /* --background: linear-gradient(115deg, #262935, #6e031f); */
+  --background: linear-gradient(115deg, #051779, #517c5f);
+  --primary: #9a9d95;
+  --secondary: #0f0f10;
+  --accent: #767a71;
+}
+
 body {
-  background-color: var(--background);
+  background: var(--background);
   color: var(--text);
 }
+
 .content-grid {
   --padding-inline: 2rem;
   --content-max-width: 90ch;
   --breakout-max-width: 65ch;
-  --breakout-size: calc(
-    (var(--breakout-max-width) - var(--content-max-width)) / 2
-  );
+  --breakout-size: calc((var(--breakout-max-width) - var(--content-max-width)) / 2);
   display: grid;
   grid-template-columns:
-    [full-width-start] minmax(var(--padding-inline), 1fr)
-    [breakout-start] minmax(0, var(--breakout-size)) [content-start]
-    min(100% - (var(--padding-inline) * 2), var(--content-max-width))
-    [content-end] minmax(0, var(--breakout-size)) [breakout-start] minmax(
-      var(--padding-inline),
-      1fr
-    )
-    [full-width-end];
+    [full-width-start] minmax(var(--padding-inline), 1fr) [breakout-start] minmax(0, var(--breakout-size)) [content-start] min(100% - (var(--padding-inline) * 2), var(--content-max-width)) [content-end] minmax(0, var(--breakout-size)) [breakout-start] minmax(var(--padding-inline),
+      1fr) [full-width-end];
 }
-.content-grid > * {
+
+.content-grid>* {
   grid-column: content;
 }
-.content-grid > .breakout {
+
+.content-grid>.breakout {
   grid-column: breakout;
 }
-.content-grid > .full-width {
+
+.content-grid>.full-width {
   grid-column: full-width;
 }
 
 .center {
   text-align: center;
-  > h2 {
+
+  >h2 {
     text-align: center;
     border: none;
   }
-  > div {
+
+  >div {
     text-align: center;
-    > a {
+
+    >a {
       padding: 0 10px;
     }
   }
@@ -57,20 +68,25 @@ p,
 figure {
   margin: 10px 0;
 }
+
 h2 {
   border-bottom: 1px solid var(--accent);
 }
+
 p,
 li,
 a {
-  font-size: 1rem; /* 16px */
+  font-size: 1rem;
+  /* 16px */
   line-height: 1.8;
   color: var(--text);
 }
+
 a {
   padding-right: 10px;
 
   transition: opacity 0.3s ease;
+
   &:hover {
     transition: opacity 0.3s ease;
     opacity: 0.6;
