@@ -7,10 +7,13 @@
   /* --background: linear-gradient(115deg, #595758, #757475, #ffffff); */
   /* --background: linear-gradient(115deg, #292625, #82968c); */
   /* --background: linear-gradient(115deg, #262935, #6e031f); */
-  --background: linear-gradient(115deg, #051779, #517c5f);
-  --primary: #9a9d95;
-  --secondary: #0f0f10;
-  --accent: #767a71;
+  /* --background: linear-gradient(115deg, #051779, #517c5f); */
+  --background: #ecebdf;
+  --text: #0c0c0d;
+  /* --background: #e5e4e7; */
+  --primary: #676a62;
+  --secondary: #efeff0;
+  --accent: #8a8e85;
 }
 
 body {
